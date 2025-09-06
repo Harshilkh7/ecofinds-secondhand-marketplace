@@ -57,10 +57,10 @@ npm run start
 # Environment Variables
 Create a .env file in the root directory with:
 
-DATABASE_URL="postgresql://ecouser:secret@localhost:5432/ecofinds"
-PORT=4000
-JWT_SECRET=supersecret_change_me
-JWT_EXPIRES=7d
+- DATABASE_URL="postgresql://ecouser:secret@localhost:5432/ecofinds"
+- PORT=4000
+- JWT_SECRET=supersecret_change_me
+- JWT_EXPIRES=7d
 
 # 📸 Screenshots
 
