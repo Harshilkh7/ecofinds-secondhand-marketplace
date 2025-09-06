@@ -27,7 +27,7 @@ model Product {
   description String?
   category    String
   price       Float
-  images      Json // 👈 JSON instead of String[]
+  images      Json
   active      Boolean     @default(true)
   cartItems   CartItem[]
   orderItems  OrderItem[]

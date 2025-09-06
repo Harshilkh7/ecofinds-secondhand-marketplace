@@ -2,9 +2,9 @@ const router = require('express').Router();
 const { body, validationResult } = require('express-validator');
 const asyncHandler = require('../middleware/asyncHandler');
 const auth = require('../middleware/auth');
-const prisma = require('../db');
+const { prisma } = require('../db'); // ✅ correct import
 
-// Get products
+// Get all products
 router.get('/', asyncHandler(async (req, res) => {
   const { q, category } = req.query;
   const where = { active: true };
@@ -18,10 +18,11 @@ router.get('/', asyncHandler(async (req, res) => {
     where,
     orderBy: { createdAt: 'desc' }
   });
+
   res.json({ products });
 }));
 
-// Get product by id
+// Get product by ID
 router.get('/:id', asyncHandler(async (req, res) => {
   const id = Number(req.params.id);
   const product = await prisma.product.findUnique({ where: { id } });
@@ -40,14 +41,23 @@ router.post('/',
     if (!errors.isEmpty()) return res.status(400).json({ errors: errors.array() });
 
     const { title, description = '', category, price, images = [] } = req.body;
+
     const product = await prisma.product.create({
-      data: { sellerId: req.user.id, title, description, category, price: Number(price), images }
+      data: {
+        sellerId: req.user.id,
+        title,
+        description,
+        category,
+        price: Number(price),
+        images
+      }
     });
+
     res.status(201).json({ product });
   })
 );
 
-// My products
+// Get logged-in user's products
 router.get('/me', auth, asyncHandler(async (req, res) => {
   const products = await prisma.product.findMany({ where: { sellerId: req.user.id } });
   res.json({ products });

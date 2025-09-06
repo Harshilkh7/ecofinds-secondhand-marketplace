@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import api from "../api";
 import ProductCard from "../components/ProductCard";
+import toast from "react-hot-toast"; // ✅ Import toast
 
 export default function MyListings() {
   const [products, setProducts] = useState([]);
@@ -9,9 +10,10 @@ export default function MyListings() {
   const fetch = async () => {
     try {
       setLoading(true);
-      const { data } = await api.get("/my-products");
+      const { data } = await api.get("/products/me");
       setProducts(data.products || []);
     } catch (err) {
+      toast.error("Failed to fetch products");
       console.error(err);
     } finally {
       setLoading(false);
@@ -21,16 +23,18 @@ export default function MyListings() {
   useEffect(() => { fetch(); }, []);
 
   const del = async (id) => {
-    if (!confirm("Delete this product?")) return;
+    if (!window.confirm("Delete this product?")) return;
+
     try {
       await api.delete(`/products/${id}`);
+      toast.success("Product deleted successfully!");
       fetch();
     } catch (err) {
+      toast.error("Failed to delete product");
       console.error(err);
     }
   };
 
-  // Fancy loader
   const Loader = () => (
     <div className="flex justify-center items-center py-20">
       <div className="relative w-16 h-16 animate-spin-slow">
@@ -47,7 +51,6 @@ export default function MyListings() {
     </div>
   );
 
-  // Empty state
   const EmptyState = () => (
     <div className="flex flex-col justify-center items-center py-20 text-gray-400 animate-fadeIn">
       <svg

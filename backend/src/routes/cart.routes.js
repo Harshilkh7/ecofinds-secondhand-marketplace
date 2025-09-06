@@ -1,11 +1,16 @@
 const router = require('express').Router();
 const asyncHandler = require('../middleware/asyncHandler');
 const auth = require('../middleware/auth');
-const prisma = require('../db');
+const { prisma } = require('../db'); // ✅ Correct import
 
 // Add to cart
 router.post('/', auth, asyncHandler(async (req, res) => {
   const { productId } = req.body;
+  console.log(req.user.id);
+  console.log(productId);
+  
+  
+
   const product = await prisma.product.findUnique({ where: { id: Number(productId) } });
   if (!product) return res.status(404).json({ message: 'Product not found' });
 
@@ -24,7 +29,7 @@ router.get('/', auth, asyncHandler(async (req, res) => {
     where: { userId: req.user.id },
     include: { items: { include: { product: true } } }
   });
-  res.json({ items: cart ? cart.items : [] });
+  res.json({ cart: cart ? cart : { items: [] } });
 }));
 
 // Remove from cart

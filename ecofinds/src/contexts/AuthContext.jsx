@@ -1,42 +1,52 @@
-import React, { createContext, useEffect, useState } from "react";
+import React, { createContext, useState, useEffect } from "react";
 import api from "../api";
-import { useNavigate } from "react-router-dom";
 
 export const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
-  const navigate = useNavigate();
+  const [loading, setLoading] = useState(true);
 
+  // Load user if token exists
   const loadUser = async () => {
     const token = localStorage.getItem("token");
-    if (!token) return;
+    if (!token) {
+      setUser(null);
+      setLoading(false);
+      return;
+    }
+
     try {
-      const { data } = await api.get("/auth/me"); // backend: GET /auth/me
+      const { data } = await api.get("/auth/me"); // Protected endpoint
       setUser(data.user);
     } catch (err) {
-      console.error("loadUser", err);
-      localStorage.removeItem("token");
+      console.error("Failed to load user:", err);
       setUser(null);
+      localStorage.removeItem("token");
+    } finally {
+      setLoading(false);
     }
   };
 
-  useEffect(() => { loadUser(); }, []);
-
-  const login = (token) => {
+  // Login: save token + load user
+  const login = async (token) => {
     localStorage.setItem("token", token);
-    loadUser();
-    navigate("/");
+    await loadUser();
   };
 
+  // Logout: clear token + user
   const logout = () => {
     localStorage.removeItem("token");
     setUser(null);
-    navigate("/login");
+    window.location.href = "/login"; // redirect to login
   };
 
+  useEffect(() => {
+    loadUser();
+  }, []);
+
   return (
-    <AuthContext.Provider value={{ user, setUser, login, logout }}>
+    <AuthContext.Provider value={{ user, loading, login, logout, loadUser }}>
       {children}
     </AuthContext.Provider>
   );

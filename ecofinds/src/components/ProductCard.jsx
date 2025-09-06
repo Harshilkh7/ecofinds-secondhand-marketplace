@@ -12,7 +12,7 @@ export default function ProductCard({ product }) {
       <Link to={`/product/${product.id}`} className="block">
         <div className="h-48 bg-gray-100 dark:bg-gray-700 flex items-center justify-center overflow-hidden">
           <img
-            src={product.image_url || "https://via.placeholder.com/600x400"}
+            src={product.images[0] || product.images[1]}
             alt={product.title}
             className="w-full h-full object-cover transform transition-transform duration-500 hover:scale-105"
           />

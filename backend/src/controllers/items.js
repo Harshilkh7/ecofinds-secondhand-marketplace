@@ -1,16 +1,22 @@
-const pool = require('../db'); // adjust path if needed
+// src/controllers/items.js
+const { prisma } = require('../db');
 
-async function addItem(name, description, price) {
+async function addItem(title, description, price) {
   try {
-    const res = await pool.query(
-      'INSERT INTO items (name, description, price) VALUES ($1, $2, $3) RETURNING *',
-      [name, description, price]
-    );
-    console.log('Inserted item:', res.rows[0]);
+    const item = await prisma.product.create({
+      data: {
+        title,
+        description,
+        price,
+        category: 'Misc', // or pass as param
+        images: [],       // default empty array
+      },
+    });
+    return item;
   } catch (err) {
     console.error('Error inserting item:', err);
+    throw err;
   }
 }
 
-// Example usage
-addItem('Shirt', 'Blue cotton shirt', 250);
+module.exports = { addItem };

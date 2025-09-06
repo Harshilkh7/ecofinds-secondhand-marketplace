@@ -1,0 +1,724 @@
+[
+  {
+    "sellerId": 1,
+    "title": "iPhone 13 Pro",
+    "description": "Apple iPhone 13 Pro 128GB in excellent condition with original box.",
+    "category": "electronics",
+    "price": 68000,
+    "images": [
+      "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/4065855/pexels-photo-4065855.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 2,
+    "title": "Wooden Dining Table",
+    "description": "Solid oak wooden dining table with 6 chairs, lightly used.",
+    "category": "furniture",
+    "price": 15000,
+    "images": [
+      "https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/279618/pexels-photo-279618.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 3,
+    "title": "Nike Running Shoes",
+    "description": "Men's Nike Air Zoom running shoes, size 10, brand new in box.",
+    "category": "fashion",
+    "price": 4500,
+    "images": [
+      "https://images.pexels.com/photos/19090/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/267202/pexels-photo-267202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 4,
+    "title": "Honda City 2017",
+    "description": "Well-maintained Honda City 2017 model, 65,000 km driven, single owner.",
+    "category": "vehicles",
+    "price": 480000,
+    "images": [
+      "https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 5,
+    "title": "Samsung 55-inch Smart TV",
+    "description": "Samsung 4K Ultra HD Smart TV with HDR, barely used.",
+    "category": "electronics",
+    "price": 38000,
+    "images": [
+      "https://images.pexels.com/photos/1444416/pexels-photo-1444416.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/278430/pexels-photo-278430.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 6,
+    "title": "Wooden Bookshelf",
+    "description": "Tall 5-shelf wooden bookshelf, perfect for study or living room.",
+    "category": "furniture",
+    "price": 4200,
+    "images": [
+      "https://images.pexels.com/photos/276508/pexels-photo-276508.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/1027508/pexels-photo-1027508.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 7,
+    "title": "Cricket Bat",
+    "description": "SS Ton English Willow cricket bat, lightly used, great condition.",
+    "category": "sports",
+    "price": 3500,
+    "images": [
+      "https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/256684/pexels-photo-256684.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 8,
+    "title": "Microwave Oven",
+    "description": "LG 23L convection microwave oven in perfect working condition.",
+    "category": "home appliances",
+    "price": 6500,
+    "images": [
+      "https://images.pexels.com/photos/1907227/pexels-photo-1907227.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/4099260/pexels-photo-4099260.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 9,
+    "title": "Acoustic Guitar",
+    "description": "Yamaha F310 acoustic guitar, perfect for beginners and intermediate players.",
+    "category": "musical instruments",
+    "price": 8000,
+    "images": [
+      "https://images.pexels.com/photos/190410/pexels-photo-190410.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/2102568/pexels-photo-2102568.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 10,
+    "title": "Harry Potter Book Set",
+    "description": "Complete Harry Potter 7-book hardcover set in mint condition.",
+    "category": "books",
+    "price": 3200,
+    "images": [
+      "https://images.pexels.com/photos/159711/books-book-pages-read-literature-159711.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/1370298/pexels-photo-1370298.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 11,
+    "title": "Mountain Bike",
+    "description": "Giant mountain bike with dual suspension, very sturdy and smooth ride.",
+    "category": "vehicles",
+    "price": 25000,
+    "images": [
+      "https://images.pexels.com/photos/100582/pexels-photo-100582.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 12,
+    "title": "Canon DSLR Camera",
+    "description": "Canon EOS 80D DSLR camera with 18-55mm kit lens.",
+    "category": "electronics",
+    "price": 52000,
+    "images": [
+      "https://images.pexels.com/photos/51383/camera-lens-zoom-photo-51383.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/167832/pexels-photo-167832.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 13,
+    "title": "Office Chair",
+    "description": "Ergonomic mesh office chair with adjustable height and lumbar support.",
+    "category": "furniture",
+    "price": 5800,
+    "images": [
+      "https://images.pexels.com/photos/813940/pexels-photo-813940.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/1957478/pexels-photo-1957478.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 14,
+    "title": "Samsung Galaxy Watch",
+    "description": "Samsung Galaxy Watch Active 2, black color, like new.",
+    "category": "electronics",
+    "price": 12000,
+    "images": [
+      "https://images.pexels.com/photos/277394/pexels-photo-277394.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 15,
+    "title": "Kitchen Blender",
+    "description": "Philips 750W mixer grinder with 3 jars, excellent condition.",
+    "category": "home appliances",
+    "price": 3600,
+    "images": [
+      "https://images.pexels.com/photos/678414/pexels-photo-678414.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/674574/pexels-photo-674574.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 16,
+    "title": "Adidas Hoodie",
+    "description": "Original Adidas men's hoodie, size L, very comfortable.",
+    "category": "fashion",
+    "price": 2200,
+    "images": [
+      "https://images.pexels.com/photos/845434/pexels-photo-845434.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 17,
+    "title": "Football",
+    "description": "Adidas FIFA quality pro football, barely used.",
+    "category": "sports",
+    "price": 1500,
+    "images": [
+      "https://images.pexels.com/photos/47730/the-ball-stadion-football-the-pitch-47730.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/995764/pexels-photo-995764.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 18,
+    "title": "Laptop Backpack",
+    "description": "HP waterproof laptop backpack with 3 compartments, fits 15.6 inch laptops.",
+    "category": "fashion",
+    "price": 1700,
+    "images": [
+      "https://images.pexels.com/photos/322207/pexels-photo-322207.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/1765687/pexels-photo-1765687.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 19,
+    "title": "Refrigerator",
+    "description": "Whirlpool double door refrigerator 265L capacity, frost free.",
+    "category": "home appliances",
+    "price": 21000,
+    "images": [
+      "https://images.pexels.com/photos/3738116/pexels-photo-3738116.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/574113/pexels-photo-574113.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 20,
+    "title": "Apple MacBook Air",
+    "description": "Apple MacBook Air M1, 8GB RAM, 256GB SSD, mint condition.",
+    "category": "electronics",
+    "price": 78000,
+    "images": [
+      "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  
+
+  {
+    "sellerId": 21,
+    "title": "Gaming PC Setup",
+    "description": "Custom built gaming PC with Ryzen 5, RTX 3060, 16GB RAM, 1TB SSD.",
+    "category": "electronics",
+    "price": 95000,
+    "images": [
+      "https://images.pexels.com/photos/845451/pexels-photo-845451.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 22,
+    "title": "Leather Sofa",
+    "description": "Brown 3-seater leather sofa, very comfortable and stylish.",
+    "category": "furniture",
+    "price": 23000,
+    "images": [
+      "https://images.pexels.com/photos/1866148/pexels-photo-1866148.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 23,
+    "title": "Ray-Ban Sunglasses",
+    "description": "Authentic Ray-Ban Aviator sunglasses with case, barely used.",
+    "category": "fashion",
+    "price": 4500,
+    "images": [
+      "https://images.pexels.com/photos/46710/pexels-photo-46710.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/1680170/pexels-photo-1680170.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 24,
+    "title": "Hyundai i20 2019",
+    "description": "Well-maintained Hyundai i20 Sportz 2019, 45,000 km, single owner.",
+    "category": "vehicles",
+    "price": 560000,
+    "images": [
+      "https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/210018/pexels-photo-210018.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 25,
+    "title": "Sony PlayStation 5",
+    "description": "Sony PlayStation 5 console with extra controller and 2 games.",
+    "category": "electronics",
+    "price": 49000,
+    "images": [
+      "https://images.pexels.com/photos/1298601/pexels-photo-1298601.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/596120/pexels-photo-596120.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 26,
+    "title": "Study Table",
+    "description": "Compact wooden study table with drawers, ideal for students.",
+    "category": "furniture",
+    "price": 3500,
+    "images": [
+      "https://images.pexels.com/photos/713661/pexels-photo-713661.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/242602/pexels-photo-242602.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 27,
+    "title": "Badminton Racket",
+    "description": "Yonex Nanoray badminton racket, lightweight and powerful.",
+    "category": "sports",
+    "price": 2800,
+    "images": [
+      "https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 28,
+    "title": "Washing Machine",
+    "description": "Samsung 7kg front load washing machine, excellent working condition.",
+    "category": "home appliances",
+    "price": 18500,
+    "images": [
+      "https://images.pexels.com/photos/1910474/pexels-photo-1910474.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/4039783/pexels-photo-4039783.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 29,
+    "title": "Electric Guitar",
+    "description": "Fender Stratocaster electric guitar with amplifier.",
+    "category": "musical instruments",
+    "price": 28000,
+    "images": [
+      "https://images.pexels.com/photos/164936/pexels-photo-164936.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/342885/pexels-photo-342885.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 30,
+    "title": "Chetan Bhagat Book Collection",
+    "description": "Set of 5 Chetan Bhagat novels in good condition.",
+    "category": "books",
+    "price": 700,
+    "images": [
+      "https://images.pexels.com/photos/261909/pexels-photo-261909.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/1112048/pexels-photo-1112048.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 31,
+    "title": "Scooter Honda Activa 5G",
+    "description": "Honda Activa 5G 2018 model, 30,000 km, very good condition.",
+    "category": "vehicles",
+    "price": 48000,
+    "images": [
+      "https://images.pexels.com/photos/195460/pexels-photo-195460.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/210182/pexels-photo-210182.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 32,
+    "title": "Dell XPS 13 Laptop",
+    "description": "Dell XPS 13 with i7, 16GB RAM, 512GB SSD, slim and lightweight.",
+    "category": "electronics",
+    "price": 87000,
+    "images": [
+      "https://images.pexels.com/photos/374631/pexels-photo-374631.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 33,
+    "title": "Office Desk",
+    "description": "Large wooden office desk with drawers and cable management.",
+    "category": "furniture",
+    "price": 9500,
+    "images": [
+      "https://images.pexels.com/photos/667838/pexels-photo-667838.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/37347/office-sitting-room-executive-sitting.jpg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 34,
+    "title": "Puma Sports Jacket",
+    "description": "Original Puma sports jacket, size M, lightweight and trendy.",
+    "category": "fashion",
+    "price": 2800,
+    "images": [
+      "https://images.pexels.com/photos/532220/pexels-photo-532220.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/428338/pexels-photo-428338.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 35,
+    "title": "Carrom Board",
+    "description": "Standard size wooden carrom board with coins and striker.",
+    "category": "sports",
+    "price": 2000,
+    "images": [
+      "https://images.pexels.com/photos/116604/pexels-photo-116604.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/296301/pexels-photo-296301.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 36,
+    "title": "Ceiling Fan",
+    "description": "Orient ceiling fan, 3 blades, in excellent working condition.",
+    "category": "home appliances",
+    "price": 1700,
+    "images": [
+      "https://images.pexels.com/photos/3771092/pexels-photo-3771092.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/162362/fan-ceiling-fan-ventilator-home-162362.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 37,
+    "title": "Drum Set",
+    "description": "Pearl Roadshow drum set, 5-piece with cymbals and stool.",
+    "category": "musical instruments",
+    "price": 42000,
+    "images": [
+      "https://images.pexels.com/photos/995301/pexels-photo-995301.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/164693/pexels-photo-164693.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 38,
+    "title": "Cookware Set",
+    "description": "Non-stick 5-piece cookware set, great for everyday cooking.",
+    "category": "home appliances",
+    "price": 2500,
+    "images": [
+      "https://images.pexels.com/photos/276224/pexels-photo-276224.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/1005406/pexels-photo-1005406.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 39,
+    "title": "Jeans for Men",
+    "description": "Levi’s slim fit jeans, size 32, dark blue color.",
+    "category": "fashion",
+    "price": 1600,
+    "images": [
+      "https://images.pexels.com/photos/428338/pexels-photo-428338.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 40,
+    "title": "Toyota Innova Crysta",
+    "description": "Toyota Innova Crysta 2018 model, diesel, 75,000 km, excellent condition.",
+    "category": "vehicles",
+    "price": 1450000,
+    "images": [
+      "https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 41,
+    "title": "HP Pavilion Laptop",
+    "description": "HP Pavilion 15 with i5 11th Gen, 8GB RAM, 512GB SSD, great condition.",
+    "category": "electronics",
+    "price": 56000,
+    "images": [
+      "https://images.pexels.com/photos/374631/pexels-photo-374631.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 42,
+    "title": "Dining Chair Set",
+    "description": "Set of 4 cushioned dining chairs, modern design.",
+    "category": "furniture",
+    "price": 9200,
+    "images": [
+      "https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/1866146/pexels-photo-1866146.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 43,
+    "title": "Apple AirPods Pro",
+    "description": "Apple AirPods Pro with noise cancellation, excellent condition.",
+    "category": "electronics",
+    "price": 17500,
+    "images": [
+      "https://images.pexels.com/photos/3394655/pexels-photo-3394655.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/356851/pexels-photo-356851.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 44,
+    "title": "Wooden Wardrobe",
+    "description": "2-door wardrobe with hanging space and shelves, strong build.",
+    "category": "furniture",
+    "price": 14500,
+    "images": [
+      "https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 45,
+    "title": "Royal Enfield Classic 350",
+    "description": "Royal Enfield Classic 350, 2019 model, 18,000 km driven.",
+    "category": "vehicles",
+    "price": 145000,
+    "images": [
+      "https://images.pexels.com/photos/1762578/pexels-photo-1762578.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/1464425/pexels-photo-1464425.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 46,
+    "title": "LG Soundbar",
+    "description": "LG Bluetooth soundbar with subwoofer, cinematic sound quality.",
+    "category": "electronics",
+    "price": 11500,
+    "images": [
+      "https://images.pexels.com/photos/106112/pexels-photo-106112.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/21261/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 47,
+    "title": "Kids Study Table",
+    "description": "Colorful kids study table with chair, cartoon design.",
+    "category": "furniture",
+    "price": 2500,
+    "images": [
+      "https://images.pexels.com/photos/2089698/pexels-photo-2089698.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/159839/books-education-school-literature-159839.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 48,
+    "title": "Adidas Running Shoes",
+    "description": "Adidas Ultraboost running shoes, size 9, barely worn.",
+    "category": "fashion",
+    "price": 4800,
+    "images": [
+      "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/267202/pexels-photo-267202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 49,
+    "title": "Cricket Kit",
+    "description": "Full cricket kit including bat, pads, gloves, helmet.",
+    "category": "sports",
+    "price": 7500,
+    "images": [
+      "https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/632522/pexels-photo-632522.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 50,
+    "title": "Kitchen Chimney",
+    "description": "Faber 60cm kitchen chimney with auto-clean, excellent suction.",
+    "category": "home appliances",
+    "price": 11000,
+    "images": [
+      "https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/3738116/pexels-photo-3738116.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 51,
+    "title": "Violin",
+    "description": "Beginner violin with bow and carrying case, good condition.",
+    "category": "musical instruments",
+    "price": 6500,
+    "images": [
+      "https://images.pexels.com/photos/210257/pexels-photo-210257.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/164936/pexels-photo-164936.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 52,
+    "title": "Book Shelf",
+    "description": "Compact 3-shelf book rack, dark brown wooden finish.",
+    "category": "furniture",
+    "price": 1800,
+    "images": [
+      "https://images.pexels.com/photos/276508/pexels-photo-276508.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/1027508/pexels-photo-1027508.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 53,
+    "title": "Motorola Smartphone",
+    "description": "Motorola Edge 20, 8GB RAM, 128GB storage, like new.",
+    "category": "electronics",
+    "price": 23000,
+    "images": [
+      "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 54,
+    "title": "Mixer Grinder",
+    "description": "Bajaj 500W mixer grinder with 3 jars, perfect condition.",
+    "category": "home appliances",
+    "price": 2600,
+    "images": [
+      "https://images.pexels.com/photos/674574/pexels-photo-674574.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/678414/pexels-photo-678414.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 55,
+    "title": "Formal Shoes",
+    "description": "Brown leather formal shoes, size 42, brand new.",
+    "category": "fashion",
+    "price": 2200,
+    "images": [
+      "https://images.pexels.com/photos/267202/pexels-photo-267202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/19090/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 56,
+    "title": "Road Bicycle",
+    "description": "Lightweight aluminum road bike, Shimano gears, excellent ride.",
+    "category": "vehicles",
+    "price": 33000,
+    "images": [
+      "https://images.pexels.com/photos/100582/pexels-photo-100582.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 57,
+    "title": "Electric Kettle",
+    "description": "Prestige 1.5L electric kettle, stainless steel, auto cut-off.",
+    "category": "home appliances",
+    "price": 1200,
+    "images": [
+      "https://images.pexels.com/photos/3738121/pexels-photo-3738121.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/198056/pexels-photo-198056.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 58,
+    "title": "Skateboard",
+    "description": "Professional skateboard with wooden deck and sturdy wheels.",
+    "category": "sports",
+    "price": 3200,
+    "images": [
+      "https://images.pexels.com/photos/163790/skateboard-skater-action-concrete-163790.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/343453/pexels-photo-343453.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 59,
+    "title": "Acoustic Drum Pad",
+    "description": "Roland electronic drum pad, perfect for practice.",
+    "category": "musical instruments",
+    "price": 18000,
+    "images": [
+      "https://images.pexels.com/photos/995301/pexels-photo-995301.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/164693/pexels-photo-164693.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  },
+  {
+    "sellerId": 60,
+    "title": "Mahindra XUV500",
+    "description": "Mahindra XUV500 W10, 2017 model, 65,000 km driven.",
+    "category": "vehicles",
+    "price": 950000,
+    "images": [
+      "https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    ],
+    "active": true
+  }
+]
